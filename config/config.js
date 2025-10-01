@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-require("dotenv").config({ path: "./envv/.env" });
+require("dotenv").config({ path: "./.env" });
 const connectDB = async () => {
   try {
     console.log("🔍 URI leída:", process.env.MONGO_URI);

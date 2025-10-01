@@ -1,7 +1,7 @@
 const express = require("express");
 const connectDB = require("./config/config");
 const postRoutes = require("./routes/post");
-require("dotenv").config({ path: "./envv/.env" });
+require("dotenv").config({ path: "./.env" });
 
 const app = express();
 app.use(express.json());
